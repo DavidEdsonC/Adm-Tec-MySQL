@@ -3,9 +3,9 @@ USE Curso;
 
 CREATE TABLE IF NOT EXISTS Cursos(id_cursos INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 					titulo VARCHAR(50) NOT NULL,
-                    descricao TEXT,
-                    carga_horaria INTEGER NOT NULL,
-                    ano YEAR
+					descricao TEXT,
+					carga_horaria INTEGER NOT NULL,
+					ano YEAR
 );
 DESC Cursos;
 /*INCERINDO DADOS (INSERT INTO <TABELA> VALUES (<VALORES>)*/
@@ -49,4 +49,17 @@ CREATE TABLE IF NOT EXISTS Alunos(id_alunos INT primary key NOT NULL AUTO_INCREM
                     data_nascimento DATE NOT NULL
 );
 DESC Alunos;
+
+/* COMANDO PARA CONSULTAR TODAS AS TABELAS DO BANCO DE DADODS
+SHOW TABLES;
+
+	E PARA CONSULTAR TODO O BANCO DE DADOS
+    
+SHOW DATABASES;
+*/
+
+
+
+
+
 
